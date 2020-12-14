@@ -4,7 +4,7 @@ plot_results=true
 %///////////////////////////////////////////////////////////////
 % Example 1
 % 2nd filtOrder DC blocker, 20 Hz, sampling frequency = 44.1kHz
-% Plots the filter response and sample signals 
+% Plots the filter response and sample signals
 %///////////////////////////////////////////////////////////////
 
 filtOrder=2
@@ -32,7 +32,7 @@ design_iir_bandpass_cmsis_elliptical(filtOrder,ripple,att,f1,f2,fs,plot_results)
 
 %///////////////////////////////////////////////////////////////
 % Example 3
-% & Same as frequencies sd example 2, but designed as Butterworth 
+% & Same as frequencies sd example 2, but designed as Butterworth
 % filter
 %///////////////////////////////////////////////////////////////
 
@@ -45,7 +45,7 @@ design_iir_bandpass_cmsis_butter(filtOrder,f1,f2,fs,plot_results);
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %///////////////////////////////////////////////////////////////
 % Example 4
-% 50 Hz notch filter, 
+% 50 Hz notch filter,
 % bandstop between 47 and 53 Hz, sampling frequency = 1kHz
 %///////////////////////////////////////////////////////////////
 

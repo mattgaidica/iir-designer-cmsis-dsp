@@ -1,3 +1,8 @@
+# All functions have been modified for MATLAB #
+
+Original README
+-
+
 # iir-designer-cmsis-dsp
 A collection of GNU Octave scripts to design IIR filters that can be HW accelerated on ARM Cortex cores via CMSIS DSP.
 
