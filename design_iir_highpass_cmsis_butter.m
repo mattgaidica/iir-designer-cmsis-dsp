@@ -5,7 +5,7 @@
 % @brief M file to design a highpass Butterworth filter and get the coefficients for CMSIS DSP
 %
 
-function design_iir_highpass_cmsis_butter(requested_order, f1, fs, plot_results)
+function coeffs = design_iir_highpass_cmsis_butter(requested_order, f1, fs, plot_results)
 filtOrder = requested_order;
 % Nyquist frequency, for convenience
 fNyquist = fs/2;

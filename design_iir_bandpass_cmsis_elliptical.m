@@ -5,7 +5,7 @@
 % @brief M file to design a bandpass Elliptical filter and get the coefficients for CMSIS DSP
 %
 
-function design_iir_bandpass_cmsis_elliptical (requested_order, ripple, att, f1, f2, fs, plot_results)
+function coeffs = design_iir_bandpass_cmsis_elliptical (requested_order, ripple, att, f1, f2, fs, plot_results)
 % it's a bandpass filter, so if we want a 4th filtOrder, we need to compute a
 % 2nd filtOrder (because it's actually 2 filters in one, so the final filtOrder will be double)
 filtOrder = requested_order/2;

@@ -5,7 +5,7 @@
 % @brief M file to design a bandstop Butterworth filter and get the coefficients for CMSIS DSP
 % 
  
-function design_iir_bandstop_cmsis_butter(requested_order, f1, f2, fs, plot_results)
+function coeffs = design_iir_bandstop_cmsis_butter(requested_order, f1, f2, fs, plot_results)
 % it's a bandstop filter, so if we want a 4th order, we need to compute a
 % 2nd order (because it's actually 2 filters in one, so the final order will be double)
 filtOrder = requested_order/2;
